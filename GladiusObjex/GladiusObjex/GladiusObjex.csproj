@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1D764BB-E684-420D-8649-AAE77149FCD8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>GladiusObjex</RootNamespace>
+    <AssemblyName>GladiusObjex</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseClass\gsBase.cs" />
+    <Compile Include="BaseClass\gsBaseCard.cs" />
+    <Compile Include="BaseClass\gsBaseDocument.cs" />
+    <Compile Include="BaseClass\gsBaseRecord.cs" />
+    <Compile Include="Base\IBase.cs" />
+    <Compile Include="Base\IBaseCard.cs" />
+    <Compile Include="Base\IBaseRecord.cs" />
+    <Compile Include="Base\IDocument.cs" />
+    <Compile Include="GKernel\ConnectionProvider.cs" />
+    <Compile Include="GKernel\DbManager.cs" />
+    <Compile Include="GKernel\SqlHelper.cs" />
+    <Compile Include="PrgClass\MRP\AcceptDelivery\AcceptDelivery.cs" />
+    <Compile Include="PrgClass\MRP\AcceptDelivery\AcceptDeliveryDetail.cs" />
+    <Compile Include="PrgClass\MRP\DiscountDefinitions.cs" />
+    <Compile Include="PrgClass\MRP\EmployeeClasses\EmployeeCard.cs" />
+    <Compile Include="PrgClass\MRP\EmployeeClasses\EmployeeTypes.cs" />
+    <Compile Include="PrgClass\MRP\LogoServiceClasses\LogoInfo.cs" />
+    <Compile Include="PrgClass\MRP\ManagerClasses\CargoTracking.cs" />
+    <Compile Include="PrgClass\MRP\ManagerClasses\Notification.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\Dispatch.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\DispatchDetail.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\FaultCauses.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\MachineCard.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\MachineTypes.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\ProductDemand.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\ProductionOperation.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\ProductionPlace.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\ProductionStockBarcodes.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\ProductionUsedStocks.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\ProductTracking.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\ProductTrackingDetail.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\ProductTrackingDetailStock.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\Shipment.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\ShipmentLines.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\StockRecipe.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\StockRecipeConnectedStocks.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\StockRecipeDetail.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\StockRecipeDocuments.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\StockRecipeOperations.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\StockRecipeWorkOrderDetail.cs" />
+    <Compile Include="PrgClass\MRP\ProductionClasses\StockRecipeWorkOrderStock.cs" />
+    <Compile Include="PrgClass\MRP\Purchasing\PurchasingOffer.cs" />
+    <Compile Include="PrgClass\MRP\Purchasing\PurchasingOfferLines.cs" />
+    <Compile Include="PrgClass\MRP\Purchasing\PurchasingRequest.cs" />
+    <Compile Include="PrgClass\MRP\Purchasing\PurchasingRequestDetail.cs" />
+    <Compile Include="PrgClass\MRP\Purchasing\PurchasingTypes.cs" />
+    <Compile Include="PrgClass\MRP\Purchasing\SubmittedPurchasingOffer.cs" />
+    <Compile Include="PrgClass\MRP\Purchasing\SubmittedPurchasingOfferDocuments.cs" />
+    <Compile Include="PrgClass\MRP\Purchasing\SubmittedPurchasingOfferLines.cs" />
+    <Compile Include="PrgClass\MRP\Purchasing\SubmittedPurchasingOfferPayment.cs" />
+    <Compile Include="PrgClass\MRP\Reports\sysReport.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\Agents.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\ClientAddress.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\ClientCard.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\ClientGroup.cs" />
+    <Compile Include="PrgClass\MRP\ManagerClasses\GuestRegistration.cs" />
+    <Compile Include="PrgClass\MRP\ManagerClasses\PhoneDirectory.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\Colors.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\DueCard.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\PriceList.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\PriceListDetail.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\SalesOffer.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\SalesOfferLines.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\SalesOfferPayment.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\SalesOfferTransport.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\SalesOrder.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\SalesOrderLines.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\SalesOrderPayment.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\SalesOrderTransport.cs" />
+    <Compile Include="PrgClass\MRP\SalesClasses\StockMeasure.cs" />
+    <Compile Include="PrgClass\MRP\SettingClasses\Departments.cs" />
+    <Compile Include="PrgClass\MRP\SettingClasses\GladiusLog.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\CountingAssign.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\CountingAssignDetail.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\Sections.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockAccounting.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockBrand.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockCard.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockCardRequest.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockClass.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockDocuments.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockFiche.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockFicheDetails.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockGroup.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockLanguage.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockLines.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockModel.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockSubClass.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockType.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockUnit.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockUnitBarcode.cs" />
+    <Compile Include="PrgClass\MRP\StockClasses\StockUnitDetail.cs" />
+    <Compile Include="PrgClass\Netsis\AccountRevalation.cs" />
+    <Compile Include="PrgClass\Netsis\CurrClient.cs" />
+    <Compile Include="PrgClass\Netsis\dmsApproval.cs" />
+    <Compile Include="PrgClass\Netsis\dmsDocument.cs" />
+    <Compile Include="PrgClass\Tracing\A_Cassette.cs" />
+    <Compile Include="PrgClass\Tracing\A_Client.cs" />
+    <Compile Include="PrgClass\Tracing\A_ColdDraw.cs" />
+    <Compile Include="PrgClass\Tracing\A_ColdDrawDetail.cs" />
+    <Compile Include="PrgClass\Tracing\A_Cutting.cs" />
+    <Compile Include="PrgClass\Tracing\A_CuttingDetail.cs" />
+    <Compile Include="PrgClass\Tracing\A_Employee.cs" />
+    <Compile Include="PrgClass\Tracing\A_Machine.cs" />
+    <Compile Include="PrgClass\Tracing\A_MachineReel.cs" />
+    <Compile Include="PrgClass\Tracing\A_StockSerial.cs" />
+    <Compile Include="PrgClass\Tracing\A_Transaction.cs" />
+    <Compile Include="PrgClass\Tracing\A_TransactionDetail.cs" />
+    <Compile Include="PrgClass\Tracing\A_Wicker.cs" />
+    <Compile Include="PrgClass\Tracing\A_WickerDetail.cs" />
+    <Compile Include="PrgClass\Tracing\P_EmployeeType.cs" />
+    <Compile Include="PrgClass\Tracing\P_MachineType.cs" />
+    <Compile Include="PrgClass\Tracing\A_Reel.cs" />
+    <Compile Include="PrgClass\Tracing\A_Stock.cs" />
+    <Compile Include="PrgClass\Tracing\P_CassetType.cs" />
+    <Compile Include="PrgClass\Tracing\P_ClientGroup.cs" />
+    <Compile Include="PrgClass\Tracing\P_StockQuality.cs" />
+    <Compile Include="PrgClass\Tracing\P_StockType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider\ICustomObject.cs" />
+    <Compile Include="Provider\ObjColumn.cs" />
+    <Compile Include="Provider\ObjectHelper.cs" />
+    <Compile Include="Provider\ObjectManager.cs" />
+    <Compile Include="Provider\ObjParam.cs" />
+    <Compile Include="Provider\ObjSqlHelper.cs" />
+    <Compile Include="SystemClass\Branches.cs" />
+    <Compile Include="SystemClass\Connections.cs" />
+    <Compile Include="SystemClass\CurrencyExchange.cs" />
+    <Compile Include="SystemClass\Database.cs" />
+    <Compile Include="SystemClass\ExchangeRate.cs" />
+    <Compile Include="SystemClass\FirmDatabases.cs" />
+    <Compile Include="SystemClass\Firms.cs" />
+    <Compile Include="SystemClass\Shelfs.cs" />
+    <Compile Include="SystemClass\UserFirmAuth.cs" />
+    <Compile Include="SystemClass\Users.cs" />
+    <Compile Include="SystemClass\UsersAuth.cs" />
+    <Compile Include="SystemClass\WareHouses.cs" />
+    <Compile Include="Tool\GladiusEnum.cs" />
+    <Compile Include="Tool\GladiusEnycription.cs" />
+    <Compile Include="Tool\GladiusIO.cs" />
+    <Compile Include="Tool\GladiusOffice.cs" />
+    <Compile Include="Tool\GladiusRegistry.cs" />
+    <Compile Include="Tool\GladiusSerialize.cs" />
+    <Compile Include="Tool\StringProc.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PrgClass\Servis\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
