@@ -1,0 +1,9 @@
+C:\Users\Tsui\Desktop\Projeler\GladiusMRP\GladiusObjex\bin\Debug\GladiusObjex.dll
+C:\Users\Tsui\Desktop\Projeler\GladiusMRP\GladiusObjex\bin\Debug\GladiusObjex.pdb
+C:\Users\Tsui\Desktop\Projeler\GladiusMRP\GladiusObjex\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tsui\Desktop\Projeler\GladiusMRP\GladiusObjex\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tsui\Desktop\Projeler\GladiusMRP\GladiusObjex\obj\Debug\GladiusObjex.csproj.AssemblyReference.cache
+C:\Users\Tsui\Desktop\Projeler\GladiusMRP\GladiusObjex\obj\Debug\GladiusObjex.csproj.CoreCompileInputs.cache
+C:\Users\Tsui\Desktop\Projeler\GladiusMRP\GladiusObjex\obj\Debug\GladiusObjex.dll
+C:\Users\Tsui\Desktop\Projeler\GladiusMRP\GladiusObjex\obj\Debug\GladiusObjex.pdb
+C:\Users\Tsui\Desktop\Projeler\GladiusMRP\GladiusObjex\obj\Debug\GladiusO.AC69852A.Up2Date

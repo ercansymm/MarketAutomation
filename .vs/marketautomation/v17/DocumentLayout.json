@@ -1,0 +1,289 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\employee\\frmuserscard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\employee\\frmuserscard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\employee\\frmusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\employee\\frmusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|c:\\users\\ercan\\onedrive\\masa\u00FCst\u00FC\\visual projeleri\\market projesi deneme\\marketautomation\\marketautomation\\unit\\frmunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\unit\\frmunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\clinet\\frmclinetlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\clinet\\frmclinetlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\unit\\frmunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\unit\\frmunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\clinet\\frmclientcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\clinet\\frmclientcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\casier\\frmcostumerpays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\casier\\frmcostumerpays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\casier\\frmcraced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\casier\\frmcraced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\casier\\frmcraced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\casier\\frmcraced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\stock\\frmstockcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\stock\\frmstockcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\stock\\frmstockcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\stock\\frmstockcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\fiche\\frmstockfiche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\fiche\\frmstockfiche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\casier\\frmorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\casier\\frmorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\casier\\frmorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\casier\\frmorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\specialclass\\baselist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\specialclass\\baselist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\stock\\frmsubcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D362E44-00BA-4E78-AEA3-844896E14C30}|marketautomation\\marketautomation.csproj|solutionrelative:marketautomation\\stock\\frmsubcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmUnit.cs",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Unit\\frmUnit.cs",
+              "RelativeDocumentMoniker": "marketautomation\\Unit\\frmUnit.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Unit\\frmUnit.cs",
+              "RelativeToolTip": "marketautomation\\Unit\\frmUnit.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T11:08:22.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmClinetList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Clinet\\frmClinetList.cs",
+              "RelativeDocumentMoniker": "marketautomation\\Clinet\\frmClinetList.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Clinet\\frmClinetList.cs [Design]",
+              "RelativeToolTip": "marketautomation\\Clinet\\frmClinetList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T13:31:39.76Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmStockCard.cs",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Stock\\frmStockCard.cs",
+              "RelativeDocumentMoniker": "marketautomation\\Stock\\frmStockCard.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Stock\\frmStockCard.cs",
+              "RelativeToolTip": "marketautomation\\Stock\\frmStockCard.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAiwIMAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T13:07:33.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmStockCard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Stock\\frmStockCard.cs",
+              "RelativeDocumentMoniker": "marketautomation\\Stock\\frmStockCard.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Stock\\frmStockCard.cs [Design]",
+              "RelativeToolTip": "marketautomation\\Stock\\frmStockCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T13:06:54.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmUsers.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Employee\\FrmUsers.cs",
+              "RelativeDocumentMoniker": "marketautomation\\Employee\\FrmUsers.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Employee\\FrmUsers.cs [Design]",
+              "RelativeToolTip": "marketautomation\\Employee\\FrmUsers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T12:58:27.456Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmUsersCard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Employee\\frmUsersCard.cs",
+              "RelativeDocumentMoniker": "marketautomation\\Employee\\frmUsersCard.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Employee\\frmUsersCard.cs [Design]",
+              "RelativeToolTip": "marketautomation\\Employee\\frmUsersCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T21:41:07.783Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmCraced.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\casier\\frmCraced.cs",
+              "RelativeDocumentMoniker": "marketautomation\\casier\\frmCraced.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\casier\\frmCraced.cs [Design]",
+              "RelativeToolTip": "marketautomation\\casier\\frmCraced.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T13:31:15.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmCraced.cs",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\casier\\frmCraced.cs",
+              "RelativeDocumentMoniker": "marketautomation\\casier\\frmCraced.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\casier\\frmCraced.cs",
+              "RelativeToolTip": "marketautomation\\casier\\frmCraced.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwEgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T13:31:21.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmCostumerPays.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\casier\\frmCostumerPays.cs",
+              "RelativeDocumentMoniker": "marketautomation\\casier\\frmCostumerPays.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\casier\\frmCostumerPays.cs [Design]*",
+              "RelativeToolTip": "marketautomation\\casier\\frmCostumerPays.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T13:31:24.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmStockFiche.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Fiche\\frmStockFiche.cs",
+              "RelativeDocumentMoniker": "marketautomation\\Fiche\\frmStockFiche.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Fiche\\frmStockFiche.cs [Design]",
+              "RelativeToolTip": "marketautomation\\Fiche\\frmStockFiche.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T13:06:42.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmClientCard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Clinet\\frmClientCard.cs",
+              "RelativeDocumentMoniker": "marketautomation\\Clinet\\frmClientCard.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Clinet\\frmClientCard.cs [Design]",
+              "RelativeToolTip": "marketautomation\\Clinet\\frmClientCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T12:58:14.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Program.cs",
+              "RelativeDocumentMoniker": "marketautomation\\Program.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Program.cs",
+              "RelativeToolTip": "marketautomation\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T18:15:02.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmOrders.cs",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\casier\\frmOrders.cs",
+              "RelativeDocumentMoniker": "marketautomation\\casier\\frmOrders.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\casier\\frmOrders.cs",
+              "RelativeToolTip": "marketautomation\\casier\\frmOrders.cs",
+              "ViewState": "AgIAAGIBAAAAAAAAAAArwHwBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T17:18:03.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmOrders.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\casier\\frmOrders.cs",
+              "RelativeDocumentMoniker": "marketautomation\\casier\\frmOrders.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\casier\\frmOrders.cs [Design]",
+              "RelativeToolTip": "marketautomation\\casier\\frmOrders.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T17:17:51.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmUnit.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Unit\\frmUnit.cs",
+              "RelativeDocumentMoniker": "marketautomation\\Unit\\frmUnit.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Unit\\frmUnit.cs [Design]",
+              "RelativeToolTip": "marketautomation\\Unit\\frmUnit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T07:18:00.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseList.cs",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\SpecialClass\\BaseList.cs",
+              "RelativeDocumentMoniker": "marketautomation\\SpecialClass\\BaseList.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\SpecialClass\\BaseList.cs",
+              "RelativeToolTip": "marketautomation\\SpecialClass\\BaseList.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA5wBYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T21:37:23.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmSubCategory.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Stock\\frmSubCategory.cs",
+              "RelativeDocumentMoniker": "marketautomation\\Stock\\frmSubCategory.cs",
+              "ToolTip": "C:\\Users\\ercan\\OneDrive\\Masa\u00FCst\u00FC\\Visual Projeleri\\Market projesi deneme\\marketautomation\\marketautomation\\Stock\\frmSubCategory.cs [Design]",
+              "RelativeToolTip": "marketautomation\\Stock\\frmSubCategory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:18:35.939Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
