@@ -1,0 +1,392 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3D362E44-00BA-4E78-AEA3-844896E14C30}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>marketautomation</RootNamespace>
+    <AssemblyName>marketautomation</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=3.2.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
+    <Reference Include="Bunifu.UI.WinForms.1.5.3">
+      <HintPath>..\..\..\..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\..\..\..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>..\..\..\..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>..\..\..\..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGradientPanel">
+      <HintPath>..\..\..\..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuGradientPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\..\..\..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>..\..\..\..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>..\..\..\..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>..\..\..\..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
+      <HintPath>..\..\..\..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSlider">
+      <HintPath>..\..\..\..\BunifuCrack-main\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>..\..\..\..\..\..\Downloads\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v22.2" />
+    <Reference Include="DevExpress.Charts.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v22.2" />
+    <Reference Include="DevExpress.Data.v22.2" />
+    <Reference Include="DevExpress.DataAccess.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.ExpressApp.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Persistent.Base.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v22.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v22.2.Export, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v22.2" />
+    <Reference Include="DevExpress.Utils.v22.2.UI, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v22.2" />
+    <Reference Include="DevExpress.Sparkline.v22.2.Core" />
+    <Reference Include="DevExpress.XtraCharts.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v22.2" />
+    <Reference Include="DevExpress.Drawing.v22.2" />
+    <Reference Include="DevExpress.XtraGauges.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="casier\frmCasierLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="casier\frmCasierLogin.Designer.cs">
+      <DependentUpon>frmCasierLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="casier\frmCostumerPays.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="casier\frmCostumerPays.Designer.cs">
+      <DependentUpon>frmCostumerPays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="casier\frmCraced.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="casier\frmCraced.Designer.cs">
+      <DependentUpon>frmCraced.cs</DependentUpon>
+    </Compile>
+    <Compile Include="casier\frmOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="casier\frmOrders.Designer.cs">
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="casier\frmNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="casier\frmNumber.Designer.cs">
+      <DependentUpon>frmNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clinet\frmClientCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clinet\frmClientCard.Designer.cs">
+      <DependentUpon>frmClientCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clinet\frmClinetList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clinet\frmClinetList.Designer.cs">
+      <DependentUpon>frmClinetList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\FrmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee\FrmUsers.Designer.cs">
+      <DependentUpon>FrmUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fiche\frmStockLines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fiche\frmStockLines.Designer.cs">
+      <DependentUpon>frmStockLines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\frmCaseTransef.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance\frmCaseTransef.Designer.cs">
+      <DependentUpon>frmCaseTransef.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\frmStockTracking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finance\frmStockTracking.Designer.cs">
+      <DependentUpon>frmStockTracking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fiche\frmStockFiche.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fiche\frmStockFiche.Designer.cs">
+      <DependentUpon>frmStockFiche.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Other\frmAdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\frmAdminLogin.Designer.cs">
+      <DependentUpon>frmAdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stock\frmCatagory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock\frmCatagory.Designer.cs">
+      <DependentUpon>frmCatagory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\frmUsersCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee\frmUsersCard.Designer.cs">
+      <DependentUpon>frmUsersCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Other\frmFirstLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\frmFirstLogin.Designer.cs">
+      <DependentUpon>frmFirstLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stock\frmStockList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock\frmStockList.Designer.cs">
+      <DependentUpon>frmStockList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stock\frmSubCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock\frmSubCategory.Designer.cs">
+      <DependentUpon>frmSubCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tables\frmTabelArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tables\frmTabelArea.Designer.cs">
+      <DependentUpon>frmTabelArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Unit\frmUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unit\frmUnit.Designer.cs">
+      <DependentUpon>frmUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tables\frmTablesPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tables\frmTablesPanel.Designer.cs">
+      <DependentUpon>frmTablesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="watier\frmWaiterLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="watier\frmWaiterLogin.Designer.cs">
+      <DependentUpon>frmWaiterLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialClass\BaseList.cs" />
+    <Compile Include="Stock\frmStockCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock\frmStockCard.Designer.cs">
+      <DependentUpon>frmStockCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tables\frmTableAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tables\frmTableAdd.Designer.cs">
+      <DependentUpon>frmTableAdd.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="casier\frmCasierLogin.resx">
+      <DependentUpon>frmCasierLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="casier\frmCostumerPays.resx">
+      <DependentUpon>frmCostumerPays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="casier\frmCraced.resx">
+      <DependentUpon>frmCraced.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="casier\frmOrders.resx">
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="casier\frmNumber.resx">
+      <DependentUpon>frmNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clinet\frmClientCard.resx">
+      <DependentUpon>frmClientCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clinet\frmClinetList.resx">
+      <DependentUpon>frmClinetList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\FrmUsers.resx">
+      <DependentUpon>FrmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fiche\frmStockLines.resx">
+      <DependentUpon>frmStockLines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\frmCaseTransef.resx">
+      <DependentUpon>frmCaseTransef.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\frmStockTracking.resx">
+      <DependentUpon>frmStockTracking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fiche\frmStockFiche.resx">
+      <DependentUpon>frmStockFiche.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Other\frmAdminLogin.resx">
+      <DependentUpon>frmAdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock\frmCatagory.resx">
+      <DependentUpon>frmCatagory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\frmUsersCard.resx">
+      <DependentUpon>frmUsersCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Other\frmFirstLogin.resx">
+      <DependentUpon>frmFirstLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock\frmStockList.resx">
+      <DependentUpon>frmStockList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock\frmSubCategory.resx">
+      <DependentUpon>frmSubCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tables\frmTabelArea.resx">
+      <DependentUpon>frmTabelArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unit\frmUnit.resx">
+      <DependentUpon>frmUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tables\frmTablesPanel.resx">
+      <DependentUpon>frmTablesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="watier\frmWaiterLogin.resx">
+      <DependentUpon>frmWaiterLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock\frmStockCard.resx">
+      <DependentUpon>frmStockCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Tables\frmTableAdd.resx">
+      <DependentUpon>frmTableAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\DataSources\GladiusObjex.PrgClass.Market.Unit.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\GladiusObjex\GladiusObjex\GladiusObjex.csproj">
+      <Project>{a1d764bb-e684-420d-8649-aae77149fcd8}</Project>
+      <Name>GladiusObjex</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoglds-removebg-preview .jpeg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoglds-Photoroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5072612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
